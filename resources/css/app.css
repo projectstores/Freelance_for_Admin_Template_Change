@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .masonry {
+        column-gap: 1.5em;
+        column-count: 1;
+    }
+    .masonry-sm {
+        column-gap: 1.5em;
+        column-count: 2;
+    }
+    .masonry-md {
+        column-gap: 1.5em;
+        column-count: 3;
+    }
+    .break-inside {
+        break-inside: avoid;
+    }
+}
+
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
