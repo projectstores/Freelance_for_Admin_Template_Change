@@ -54,9 +54,9 @@ return [
     |
     */
 
-    'url'       => 'https://localhost/Freelancer_Work/Freelancer_Work_New/',
+    'url'       => 'http://localhost/Freelance_for_Admin_Template_Change/',
 
-    'asset_url' => 'https://localhost/Freelancer_Work/Freelancer_Work_New/',
+    'asset_url' => 'http://localhost/Freelance_for_Admin_Template_Change/',
 
     /*
     |--------------------------------------------------------------------------
@@ -224,6 +224,6 @@ return [
     /**
      * Mix base url
      */
-    'mix_url' => 'https://localhost/Freelancer_Work/Freelancer_Work_New/public'
+    'mix_url' => 'http://localhost/Freelance_for_Admin_Template_Change/public'
 
 ];

@@ -39,7 +39,7 @@ return [
         'public' => [
             'driver'     => 'local',
             'root'       => storage_path('app/public'),
-            'url'        => 'https://localhost/Freelancer_Work/Freelancer_Work_New/storage',
+            'url'        => 'http://localhost/Freelance_for_Admin_Template_Change/storage',
             'visibility' => 'public',
             'throw'      => false,
         ],
@@ -47,7 +47,7 @@ return [
         'custom' => [
             'driver'     => 'local',
             'root'       => public_path('storage'),
-            'url'        => 'https://localhost/Freelancer_Work/Freelancer_Work_New/public/storage',
+            'url'        => 'http://localhost/Freelance_for_Admin_Template_Change/public/storage',
             'visibility' => 'public',
             'throw'      => false,
         ],
@@ -55,7 +55,7 @@ return [
         'chat' => [
             'driver'     => 'local',
             'root'       => public_path('storage/chat'),
-            'url'        => 'https://localhost/Freelancer_Work/Freelancer_Work_New/public/storage/chat',
+            'url'        => 'http://localhost/Freelance_for_Admin_Template_Change/public/storage/chat',
             'visibility' => 'public',
             'throw'      => false,
         ],

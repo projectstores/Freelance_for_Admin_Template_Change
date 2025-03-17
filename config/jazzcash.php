@@ -6,7 +6,7 @@ return [
         'merchant_id'     => '00',
         'password'        => '00',
         'integerity_salt' => '00',
-        'return_url'      => 'https://onelancer.net/callback/jazzcash',
+        'return_url'      => 'https://freelancer.net/callback/jazzcash',
         'endpoint'        => "https://sandbox.jazzcash.com.pk/CustomerPortal/transactionmanagement/merchantform/",
     ],
     'live'        => [

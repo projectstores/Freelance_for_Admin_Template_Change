@@ -633,15 +633,15 @@
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('admin.includes.header')->html();
-} elseif ($_instance->childHasBeenRendered('0wwCUCs')) {
-    $componentId = $_instance->getRenderedChildComponentId('0wwCUCs');
-    $componentTag = $_instance->getRenderedChildComponentTagName('0wwCUCs');
+} elseif ($_instance->childHasBeenRendered('65Jyzkz')) {
+    $componentId = $_instance->getRenderedChildComponentId('65Jyzkz');
+    $componentTag = $_instance->getRenderedChildComponentTagName('65Jyzkz');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('0wwCUCs');
+    $_instance->preserveRenderedChild('65Jyzkz');
 } else {
     $response = \Livewire\Livewire::mount('admin.includes.header');
     $html = $response->html();
-    $_instance->logRenderedChild('0wwCUCs', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('65Jyzkz', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -652,15 +652,15 @@ echo $html;
                 <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('admin.includes.sidebar')->html();
-} elseif ($_instance->childHasBeenRendered('kZ2oKm2')) {
-    $componentId = $_instance->getRenderedChildComponentId('kZ2oKm2');
-    $componentTag = $_instance->getRenderedChildComponentTagName('kZ2oKm2');
+} elseif ($_instance->childHasBeenRendered('XCfXHJn')) {
+    $componentId = $_instance->getRenderedChildComponentId('XCfXHJn');
+    $componentTag = $_instance->getRenderedChildComponentTagName('XCfXHJn');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('kZ2oKm2');
+    $_instance->preserveRenderedChild('XCfXHJn');
 } else {
     $response = \Livewire\Livewire::mount('admin.includes.sidebar');
     $html = $response->html();
-    $_instance->logRenderedChild('kZ2oKm2', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('XCfXHJn', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -823,4 +823,4 @@ echo $html;
     </body>
 
 </html>
-<?php /**PATH C:\xampp_8.2\htdocs\Freelancer_Work\Freelancer_Work_New\resources\views/livewire/admin/layout/app.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp_8.2\htdocs\Freelance_for_Admin_Template_Change\resources\views/livewire/admin/layout/app.blade.php ENDPATH**/ ?>

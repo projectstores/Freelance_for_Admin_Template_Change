@@ -346,7 +346,7 @@ echo $html;
 
         
         <script >window.Wireui = {hook(hook, callback) {window.addEventListener(`wireui:${hook}`, () => callback())},dispatchHook(hook) {window.dispatchEvent(new Event(`wireui:${hook}`))}}</script>
-<script src="https://localhost/Freelancer_Work/Freelancer_Work_New/wireui/assets/scripts?id=3c15fb3b36f54e2baae1e97b6eb0015e" defer ></script>
+<script src="http://localhost/Freelance_for_Admin_Template_Change/wireui/assets/scripts?id=3c15fb3b36f54e2baae1e97b6eb0015e" defer ></script>
 
         
         <script defer src="<?php echo e(mix('js/app.js'), false); ?>"></script>

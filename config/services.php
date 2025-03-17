@@ -41,27 +41,27 @@ return [
     'github' => [
         'client_id'     => 'Iv1.98f83da1eef01319',
         'client_secret' => '7d77789be7e6bf694f758b23abc14cce03a25cd5',
-        'redirect'      => 'https://localhost/Freelancer_Work/Freelancer_Work_New/auth/github/callback',
+        'redirect'      => 'http://localhost/Freelance_for_Admin_Template_Change/auth/github/callback',
     ],
     'linkedin' => [    
         'client_id'     => '000',
         'client_secret' => '00',
-        'redirect'      => 'https://localhost/Freelancer_Work/Freelancer_Work_New/auth/linkedin/callback'
+        'redirect'      => 'http://localhost/Freelance_for_Admin_Template_Change/auth/linkedin/callback'
     ],
     'google' => [    
         'client_id'     => '136858468508-b4lnkl1jk7ju1rq1sjb6hp7dneunvitu.apps.googleusercontent.com',
         'client_secret' => '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',
-        'redirect'      => 'https://localhost/Freelancer_Work/Freelancer_Work_New/auth/google/callback'
+        'redirect'      => 'http://localhost/Freelance_for_Admin_Template_Change/auth/google/callback'
     ],
     'facebook' => [    
         'client_id'     => '1247354326124914',
         'client_secret' => '4a619470f630ebbd10b2b8886d0160b3',
-        'redirect'      => 'https://localhost/Freelancer_Work/Freelancer_Work_New/auth/facebook/callback'
+        'redirect'      => 'http://localhost/Freelance_for_Admin_Template_Change/auth/facebook/callback'
     ],
     'twitter' => [    
         'client_id'     => '000',
         'client_secret' => '00',
-        'redirect'      => 'https://localhost/Freelancer_Work/Freelancer_Work_New/auth/twitter/callback'
+        'redirect'      => 'http://localhost/Freelance_for_Admin_Template_Change/auth/twitter/callback'
     ],
 
     // Email marketing

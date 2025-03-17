@@ -36,10 +36,10 @@ return [
     'mailers' => [
         'smtp' => [
             'transport'    => 'smtp',
-            'host'         => 'onelancer.net',
+            'host'         => 'freelancer.net',
             'port'         => '465',
             'encryption'   => 'tls',
-            'username'     => 'no-reply@onelancer.net',
+            'username'     => 'no-reply@freelancer.net',
             'password'     => 'O1*coNJa0!Wt',
             'timeout'      => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
@@ -92,8 +92,8 @@ return [
     */
 
     'from' => [
-        'address' => 'no-reply@onelancer.net',
-        'name'    => 'Onelancer | Freelancing Website',
+        'address' => 'no-reply@freelancer.net',
+        'name'    => 'freelancer | Freelancing Website',
     ],
 
     /*

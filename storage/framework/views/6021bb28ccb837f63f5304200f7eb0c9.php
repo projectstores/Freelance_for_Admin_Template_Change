@@ -110,4 +110,4 @@
 
     </body>
 
-</html><?php /**PATH C:\xampp_8.2\htdocs\Freelancer_Work\Freelancer_Work_New\resources\views/livewire/admin/auth/layout.blade.php ENDPATH**/ ?>
+</html><?php /**PATH C:\xampp_8.2\htdocs\Freelance_for_Admin_Template_Change\resources\views/livewire/admin/auth/layout.blade.php ENDPATH**/ ?>
